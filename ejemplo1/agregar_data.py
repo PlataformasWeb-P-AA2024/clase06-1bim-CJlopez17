@@ -1,5 +1,6 @@
 from sqlalchemy.orm import sessionmaker
 
+# Se trae Saludo para poder dar la imformacion de donde tiene que ir la data
 from crear_base import Saludo
 from configuracion import engine
 

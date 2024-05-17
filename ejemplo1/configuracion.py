@@ -4,6 +4,7 @@ from sqlalchemy import create_engine
 # para el ejemplo se usa la base de datos
 # sqlite
 
+# Coneccino con la base de datos
 engine = create_engine('sqlite:///demobase.db', echo=True)
 
 # mysql

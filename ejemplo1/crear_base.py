@@ -14,6 +14,7 @@ Base = declarative_base()
 
 from sqlalchemy import Column, Integer, String
 
+# Se crea la clase Saludo para crear la entidades
 class Saludo(Base):
     __tablename__ = 'saludos'
 
